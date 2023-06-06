@@ -1,0 +1,3 @@
+procesador
+memoria RAM
+motherboard

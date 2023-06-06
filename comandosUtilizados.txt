@@ -1,0 +1,122 @@
+Valeria@LAPTOP-GCF6CA9Q MINGW64 ~/Desktop/20230605-ValeriaBasin (master)
+$ git init
+Initialized empty Git repository in C:/Users/Valeria/Desktop/20230605-ValeriaBasin/.git/
+
+Valeria@LAPTOP-GCF6CA9Q MINGW64 ~/Desktop/20230605-ValeriaBasin (master)
+$ git config user.name "valelit"
+
+Valeria@LAPTOP-GCF6CA9Q MINGW64 ~/Desktop/20230605-ValeriaBasin (master)
+$ git config user.email "valeria.basin97@gmail.com"
+
+Valeria@LAPTOP-GCF6CA9Q MINGW64 ~/Desktop/20230605-ValeriaBasin (master)
+$ git log
+fatal: your current branch 'master' does not have any commits yet
+
+Valeria@LAPTOP-GCF6CA9Q MINGW64 ~/Desktop/20230605-ValeriaBasin (master)
+$ git branch -m main
+
+Valeria@LAPTOP-GCF6CA9Q MINGW64 ~/Desktop/20230605-ValeriaBasin (main)
+$ touch comandos.txt main.js index.html
+
+Valeria@LAPTOP-GCF6CA9Q MINGW64 ~/Desktop/20230605-ValeriaBasin (main)
+$ git add .
+
+Valeria@LAPTOP-GCF6CA9Q MINGW64 ~/Desktop/20230605-ValeriaBasin (main)
+$ git commit -m "commit 01 de ValeriaBasin
+> ^C
+
+Valeria@LAPTOP-GCF6CA9Q MINGW64 ~/Desktop/20230605-ValeriaBasin (main)
+$ git commit -m "commit 01 de ValeriaBasin"
+[main (root-commit) 2ff2178] commit 01 de ValeriaBasin
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 comandos.txt
+ create mode 100644 index.html
+ create mode 100644 main.js
+
+Valeria@LAPTOP-GCF6CA9Q MINGW64 ~/Desktop/20230605-ValeriaBasin (main)
+$ git remote add origin https://github.com/valelit/20230605-ValeriaBasin.git
+
+Valeria@LAPTOP-GCF6CA9Q MINGW64 ~/Desktop/20230605-ValeriaBasin (main)
+$ git remote -v
+origin  https://github.com/valelit/20230605-ValeriaBasin.git (fetch)
+origin  https://github.com/valelit/20230605-ValeriaBasin.git (push)
+
+Valeria@LAPTOP-GCF6CA9Q MINGW64 ~/Desktop/20230605-ValeriaBasin (main)
+$ git push origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 246 bytes | 246.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/valelit/20230605-ValeriaBasin.git
+ * [new branch]      main -> main
+
+Valeria@LAPTOP-GCF6CA9Q MINGW64 ~/Desktop/20230605-ValeriaBasin (main)
+$ git branch <feature01>
+bash: syntax error near unexpected token `newline'
+
+Valeria@LAPTOP-GCF6CA9Q MINGW64 ~/Desktop/20230605-ValeriaBasin (main)
+$ git branch feature01
+
+Valeria@LAPTOP-GCF6CA9Q MINGW64 ~/Desktop/20230605-ValeriaBasin (main)
+$ git checkout feature01
+Switched to branch 'feature01'
+
+Valeria@LAPTOP-GCF6CA9Q MINGW64 ~/Desktop/20230605-ValeriaBasin (feature01)
+$ mkdir terminal hardware
+
+Valeria@LAPTOP-GCF6CA9Q MINGW64 ~/Desktop/20230605-ValeriaBasin (feature01)
+$ cd terminal
+
+Valeria@LAPTOP-GCF6CA9Q MINGW64 ~/Desktop/20230605-ValeriaBasin/terminal (feature01)
+$ resumen.txt
+bash: resumen.txt: command not found
+
+Valeria@LAPTOP-GCF6CA9Q MINGW64 ~/Desktop/20230605-ValeriaBasin/terminal (feature01)
+$ touch resumen.txt
+
+Valeria@LAPTOP-GCF6CA9Q MINGW64 ~/Desktop/20230605-ValeriaBasin/terminal (feature01)
+$ cd ..
+
+Valeria@LAPTOP-GCF6CA9Q MINGW64 ~/Desktop/20230605-ValeriaBasin (feature01)
+$ cd hardware
+
+Valeria@LAPTOP-GCF6CA9Q MINGW64 ~/Desktop/20230605-ValeriaBasin/hardware (feature01)
+$ touch resumen.txt
+
+Valeria@LAPTOP-GCF6CA9Q MINGW64 ~/Desktop/20230605-ValeriaBasin/hardware (feature01)
+$ cd ..
+
+Valeria@LAPTOP-GCF6CA9Q MINGW64 ~/Desktop/20230605-ValeriaBasin (feature01)
+$ git push origin feature01
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'feature01' on GitHub by visiting:
+remote:      https://github.com/valelit/20230605-ValeriaBasin/pull/new/feature01
+remote:
+To https://github.com/valelit/20230605-ValeriaBasin.git
+ * [new branch]      feature01 -> feature01
+
+Valeria@LAPTOP-GCF6CA9Q MINGW64 ~/Desktop/20230605-ValeriaBasin (feature01)
+$ git branch feature02
+
+Valeria@LAPTOP-GCF6CA9Q MINGW64 ~/Desktop/20230605-ValeriaBasin (feature01)
+$ git checkout feature02
+Switched to branch 'feature02'
+
+Valeria@LAPTOP-GCF6CA9Q MINGW64 ~/Desktop/20230605-ValeriaBasin (feature02)
+$ git push origin feature02
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'feature02' on GitHub by visiting:
+remote:      https://github.com/valelit/20230605-ValeriaBasin/pull/new/feature02
+remote:
+To https://github.com/valelit/20230605-ValeriaBasin.git
+ * [new branch]      feature02 -> feature02
+
+Valeria@LAPTOP-GCF6CA9Q MINGW64 ~/Desktop/20230605-ValeriaBasin (feature02)
+$ mv comandos.txt comandosUtilizados.txt
+
+Valeria@LAPTOP-GCF6CA9Q MINGW64 ~/Desktop/20230605-ValeriaBasin (feature02)
+$
